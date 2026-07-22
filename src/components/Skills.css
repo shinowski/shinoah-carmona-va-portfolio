@@ -63,11 +63,9 @@
   align-items: center;
   gap: 12px;
   width: max-content;
-  animation: scrollTools 30s linear infinite;
-}
-
-.dock:hover .dock__track {
-  animation-play-state: paused;
+  animation: scrollTools 25s linear infinite;
+  will-change: transform;
+  transform: translate3d(0,0,0);
 }
 
 .dock__tab {
@@ -98,11 +96,12 @@
 }
 
 @keyframes scrollTools {
-  0% {
-    transform: translate3d(0,0,0);
+  from {
+    transform: translate3d(0, 0, 0);
   }
-  100% {
-    transform: translate3d(-50%,0,0);
+
+  to {
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -169,7 +168,21 @@
 }
 
 @media (max-width: 640px) {
-  .skills__grid { grid-template-columns: 1fr; }
-  .dock { gap: 8px; padding: 10px; }
-  .dock__tab { padding: 9px 14px; font-size: 12.5px; }
+  .skills__grid { 
+    grid-template-columns: 1fr; 
+  }
+
+  .dock { 
+    gap: 8px; 
+    padding: 10px; 
+  }
+
+  .dock__tab { 
+    padding: 9px 14px; 
+    font-size: 12.5px; 
+  }
+
+  .dock__track {
+    animation-duration: 18s;
+  }
 }
