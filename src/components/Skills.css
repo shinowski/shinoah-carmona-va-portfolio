@@ -98,11 +98,11 @@
 }
 
 @keyframes scrollTools {
-  from {
-    transform: translateX(0);
+  0% {
+    transform: translate3d(0,0,0);
   }
-  to {
-    transform: translateX(-50%);
+  100% {
+    transform: translate3d(-50%,0,0);
   }
 }
 

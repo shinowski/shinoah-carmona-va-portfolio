@@ -7,10 +7,10 @@ const CONTACT_EMAIL = 'carmonas.bscs@gmail.com'
 const GMAIL_COMPOSE_URL = `https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT_EMAIL}`
 const CONTACT_LINKS = [
   { icon: Mail, label: CONTACT_EMAIL, href: GMAIL_COMPOSE_URL },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/...' },
-  { icon: FaTelegramPlane, label: 'Telegram', href: 'https://t.me/...' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/carmona-shinoah-77410b331/' },
+  { icon: FaTelegramPlane, label: 'Telegram', href: 'https://t.me/Ijshiwn' },
   { icon: FaViber, label: 'Viber', href: 'viber://add?number=639945950803' },
-  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/...' },
+  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/shnocarmona' },
 ]
 
 
