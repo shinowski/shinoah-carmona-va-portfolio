@@ -1,0 +1,14 @@
+.footer {
+  background: var(--dark);
+  color: rgba(245, 246, 240, 0.55);
+  padding: 28px 0;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
